@@ -1,0 +1,143 @@
+.none {
+  display: none;
+}
+
+body,html {
+  background-image:url('../img/cream_dust.png');
+  text-align: center;
+}
+
+.container {
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 780px;
+  height: 100%;
+}
+
+.box {
+  margin-top: 10px;
+  padding: 30px;
+  position: absolute;  
+  z-index: 1;
+  color: #303030;
+  background-color: white;
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(235, 235, 235);
+}
+
+.title {
+  font-family: HelveticaNeueBold;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.description {
+  margin-top: 10px;
+  font-family: HelveticaNeue;
+
+}
+
+.iphone_container {
+  text-align: right;
+}
+
+.iphone {
+  position: relative;
+}
+
+.screen {
+  text-align: left;
+  position: relative;
+  width: 299px;
+  position: absolute;
+  right: 26px;
+  top: 125px;
+  height: 446px;
+}
+
+.screen_image {
+  width: 100%;
+}
+
+.textarea {
+  padding:10px;
+  position: absolute;
+  height:105%;
+  width: 278px;
+  height: 360px;
+  background-color: rgb(241,241, 241);
+
+  color: rgb(66,66,66);
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  line-height: 1.5em;
+
+}
+
+textarea, input {
+  outline: none; 
+  resize: none;
+  border: none;
+}
+
+#p1 {
+}
+
+.slider {
+  position: absolute;
+  bottom: -2px;
+  height:65px;
+  width: 100%;
+  border-top: solid;
+  border-color: black;
+  border-width: 1px;
+  /*overflow: auto;*/
+  overflow:hidden;
+  overflow-x: scroll;
+  /*overflow-y: hidden;*/
+  display: inline-block;
+  margin-right:-999em;
+}
+
+.filter-wrap {
+  overflow:auto;
+  height:100%;
+  background-image: url(../img/swatch.png);
+  /*position:relative;*/
+}
+
+.inner-wrap {
+  float:left;
+  margin-right:-32767px;/*Be safe with Opera's limited neg margin of -32767px*/
+}
+
+.filter {
+  cursor: pointer;
+  float: left;
+  display: inline-block;
+  margin: 5px;
+  width: 55px;
+  height: 55px;
+  background: rgb(254, 254, 254);
+  text-align: center;
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radiu
+}
+
+.filter:hover {
+  background: rgb(230, 230, 230);
+}
+
+.filter .description {
+  margin-top: 25px;
+  font-size: 10px;
+}
